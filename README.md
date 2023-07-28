@@ -50,7 +50,9 @@ for qsvc algorithm , there are may dependencies or version of library with qiski
 which are given below :-
 
 Qiskit version: 0.25.0
+
 pandas: 1.5.3
+
 numpy: 1.22.4
 
 
