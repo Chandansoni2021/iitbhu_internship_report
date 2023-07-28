@@ -74,6 +74,10 @@ Dataset 3	          500	                 400	              100            	 78 %
 Dataset 4	          150	                 90	                60	             78 %
 Dataset 5	          1000	               700	              300	             71 %
 
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
 
 
 
