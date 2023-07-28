@@ -14,19 +14,20 @@ in this code we extract the features of tcp/udp bi-directional flow . for extrac
 
 where total features are :- 
 
-Feature Name	                     Description
-stream           	      An identifier for each flow processed from the pcap file
-packet_count	          Total number of packets in the flow
-src_dst_len      	      Length of packets from source to destination in the flow
-dst_src_len	            Length of packets from destination to source in the flow
-freq_src_dst	          Frequency of packet lengths from source to destination in the flow
-freq_dst_src	          Frequency of packet lengths from destination to source in the flow
-prob_src_dst	          Probability of packets of the same length from source to destination in the flow
-prob_dst_src	          Probability of packets of the same length from destination to source in the flow
-total_prob_src_dst	    Total probability of packets of the same length from source to destination in the flow
-total_prob_dst_src	    Total probability of packets of the same length from destination to source in the flow
-total_prob	            Total probability of the packets of the same length the flow
-AttackType	            The type of attack present in the flow (e.g., DoS, Malware, etc.)
+|   Feature Name	     |                  Description                                                               |
+|----------------------|--------------------------------------------------------------------------------------------|
+|   stream             |      An identifier for each flow processed from the pcap file                              |
+|   packet_count	     |      Total number of packets in the flow                                                   |
+|   src_dst_len        |    Length of packets from source to destination in the flow                                | 
+|   dst_src_len	     |   Length of packets from destination to source in the flow                                 |
+|   freq_src_dst	     |   Frequency of packet lengths from source to destination in the flow                       |
+|   freq_dst_src	     |  Frequency of packet lengths from destination to source in the flow                        |
+|   prob_src_dst	     |      Probability of packets of the same length from source to destination in the flow      |
+|   prob_dst_src	     |     Probability of packets of the same length from destination to source in the flow       |
+|   total_prob_src_dst |    Total probability of packets of the same length from source to destination in the flow  |
+|   total_prob_dst_src |   Total probability of packets of the same length from destination to source in the flow   |
+|   total_prob	        | Total probability of the packets of the same length the flow                               |
+|   AttackType	        |The type of attack present in the flow (e.g., DoS, Malware, etc.)                           | 
 
 ### copy_of_QSVCNEW.ipynb file description :-
 
