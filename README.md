@@ -5,7 +5,7 @@ project-tittle - "Classification of IoT Attacks using Quantum Machine Learning"
 This repository contains the code and resources for a project focused on classifying IoT (Internet of Things) attacks using a QSVC (Quantum Support Vector Classifier) model. 
 The primary aim of this project is to enhance the accuracy of attack classification  by incorporating bi-directional flow features, which provide valuable insights into the attack activity patterns.
 
-#qiskit :-
+## qiskit :-
 This project focuses on leveraging the power of quantum computing for IoT attack classification. By combining the Qiskit library with QSVC (Quantum Support Vector Classifier), we aim to achieve more robust and efficient attack detection in IoT networks.
 
 #new_flow_feature.py file description :-
@@ -28,7 +28,7 @@ total_prob_dst_src	    Total probability of packets of the same length from dest
 total_prob	            Total probability of the packets of the same length the flow
 AttackType	            The type of attack present in the flow (e.g., DoS, Malware, etc.)
 
-#copy_of_QSVCNEW.ipynb file description :-
+## copy_of_QSVCNEW.ipynb file description :-
 
 in this file we construct a model(QSVC model)to classify the iot attack
 
@@ -53,7 +53,7 @@ pandas: 1.5.3
 numpy: 1.22.4
 
 
-#Architecture:-
+## Architecture:-
 
 algorithm_globals.random_seed = 12345
 
@@ -65,7 +65,7 @@ reps=2, entanglement="linear")
 adhoc_kernel = QuantumKernel(feature_map=adhoc_feature_map,
 quantum_instance=QuantumInstance(backend))
 
-#Result:-
+## Result:-
   
 Dataset	    Quantity of dataset	     Training Size	    Testing Size	     Accuracy
 Dataset 1	          300	                 240	              60	             75 %
