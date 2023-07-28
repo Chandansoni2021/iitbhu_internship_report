@@ -8,7 +8,7 @@ The primary aim of this project is to enhance the accuracy of attack classificat
 ## qiskit :-
 This project focuses on leveraging the power of quantum computing for IoT attack classification. By combining the Qiskit library with QSVC (Quantum Support Vector Classifier), we aim to achieve more robust and efficient attack detection in IoT networks.
 
-#new_flow_feature.py file description :-
+### new_flow_feature.py file description :-
 
 in this code we extract the features of tcp/udp bi-directional flow . for extracting these features we use Scapy library for read the captured packet 
 
@@ -28,7 +28,7 @@ total_prob_dst_src	    Total probability of packets of the same length from dest
 total_prob	            Total probability of the packets of the same length the flow
 AttackType	            The type of attack present in the flow (e.g., DoS, Malware, etc.)
 
-## copy_of_QSVCNEW.ipynb file description :-
+### copy_of_QSVCNEW.ipynb file description :-
 
 in this file we construct a model(QSVC model)to classify the iot attack
 
@@ -54,7 +54,7 @@ numpy: 1.22.4
 
 
 ## Architecture:-
-
+---
 algorithm_globals.random_seed = 12345
 
 backend = Aer.get_backend('aer_simulator')
